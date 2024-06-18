@@ -838,10 +838,10 @@ border: none;
 /* ------------------Backdrop------------------ */
 .backdrop {
     position: fixed;
+    top: 0;
     width: 320px;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
-    top: 0;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -851,17 +851,17 @@ border: none;
 
 .modal{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
     width: 288px;
-    min-height: 623px;
+    height: 623px;
     /* width: 408px; */
     /* min-height: 584px; */
     background-color: #fcfcfc;
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
       0 2px 1px 0 rgba(0, 0, 0, 0.2);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
     /* padding-top: 72px;
     padding-left: 24px;
     padding-bottom: 24px;
@@ -1323,16 +1323,13 @@ margin-bottom: 72px;}
 /* ------------------Backdrop------------------ */
 .backdrop {
     top: 0;
-    left: 0;
     background-color: rgba(46, 47, 66, 0.4);
     width: 768px;
     height: 100%;
 }
 
 .modal {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
@@ -1530,6 +1527,11 @@ width: 1158px;
 
 .form-input {
     opacity: 1;
+}
+
+/* ------------------Backdrop------------------ */
+.backdrop {
+    width: 100%;
 }
 
 }
