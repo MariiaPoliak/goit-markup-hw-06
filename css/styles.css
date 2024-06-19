@@ -149,8 +149,7 @@ text-align: center;
 max-width: 216px;
 margin-left: auto;
 margin-right: auto;
-padding-bottom: 72px;
-padding-top: 72px;
+margin-bottom: 72px;
 
 }
 
@@ -161,8 +160,10 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover ;
 width: 320px;
-height: 432px;
+
 margin: 0 auto;
+padding-top:72px;
+padding-bottom: 72px;
 }
 
 .button{
@@ -1126,6 +1127,7 @@ max-width: 768px;
     gap: 12px;
     font-style: normal;
     margin-left: auto;
+    font-size: 12px;
 }
 
 .logo{
@@ -1146,23 +1148,20 @@ max-width: 768px;
     flex-direction: column;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-table.jpg);
     width: 768px;
-    height: 436px;
+    padding: 112px 0;
     align-items: center;
     margin: 0 auto;
 }
-.container-hero{
-margin-bottom: 112px;
 
-}
 
 
         
 .title-text{
-    padding-bottom: 36px;
-    padding-top: 112px;
+    
+    
 font-size: 56px;
 max-width: 496px;
-margin-bottom: 0;
+margin-bottom: 36px;
 }
 
 .features-section {
@@ -1187,6 +1186,7 @@ line-height: 1.11111;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
+text-align: left;
 }
     
     .features-text{
@@ -1194,7 +1194,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;;}
+color: #434455;
+}
     
     .icon-container{
     border: 1px solid #8e8f99;
@@ -1274,7 +1275,7 @@ margin-bottom: 72px;}
     flex-wrap: wrap;
     width: 768px;
     align-items: flex-start;
-    margin-left: 108px;
+    padding-left: 108px;
 }
 
 .subscribe-container {
@@ -1289,7 +1290,7 @@ margin-bottom: 72px;}
 .logo-footer-container {
     justify-content: start;
     text-align: start;
-    padding-right: 24px;
+    margin-right: 24px;
     margin-bottom: 0;
     width: 264px;
     margin-bottom: 72px
